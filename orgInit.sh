@@ -1,4 +1,4 @@
-sf org create scratch -f config/project-scratch-def.json -d 2 -s
+sf org create scratch -f config/project-scratch-def.json -d -y 2
 sf project deploy start
 sf org open
 sf org assign permset -n CustomObjectPerms
